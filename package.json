@@ -4,9 +4,8 @@
   "description": "download repository:",
  
   "scripts": {
-    "client": "cd client && npm start",
-    "server": "cd server && npm start",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build"
   },
   "keywords": [],
   "author": "",
