@@ -2,7 +2,7 @@
   "name": "relayapp-main",
   "version": "1.0.0",
   "description": "download repository:",
-  "main": "index.js",
+ 
   "scripts": {
     "client": "cd client && npm start",
     "server": "cd server && npm start",
